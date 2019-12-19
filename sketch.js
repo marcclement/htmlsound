@@ -1,5 +1,5 @@
-var of;
-var caseLaw = []
+let of;
+let caseLaw = []
 let baseURL = "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:6"
 let activeCase ="";
 let newCase=false;
