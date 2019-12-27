@@ -1,6 +1,5 @@
 // by Bob Cook, professorcook.org
 // questions/problems/suggestions kindlecbook at gmail.com
-
 function frect(fountain, particle) {
     fill(fountain.colors[Math.floor(particle.life*fountain.colors.length)]);
     noStroke();   
@@ -88,6 +87,8 @@ function Particle() {
   this.life = 0;
   this.rotation = 0;
   this.id = 0;
+  this.sound = 0;
+  this.set = 0;
 }
 var Fountain_random = [];
 var Fountain_randomNo = 200;

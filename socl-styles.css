@@ -1,0 +1,28 @@
+
+
+.button {
+        font-size: 14pt;
+ 	background-color: darkGray; 
+	font-weight: bold;
+	border-radius: 30px; /* Curve of border corners */
+ 	text-transform: uppercase; /* Make letters uppercase */
+ 	color: PapayaWhip; /* Text color */
+        height: 30px;
+}
+
+.input {
+        font-size: 14pt;
+ 	background-color: white; 
+	border-radius: 30px; /* Curve of border corners */
+ 	color: darkGray; /* Text color */
+ 	height: 30px;
+        border: none;
+}
+
+.msg   {
+	font-size: 14pt;
+	color: PapayaWhip;
+	border: 2px;
+	border-radius: 30px;
+	height: 30px;
+}
